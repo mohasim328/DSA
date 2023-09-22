@@ -46,7 +46,7 @@ class Stack{
   }
 
   bool isempty(){
-    if(top < 0){
+    if(top == -1){
         return true;
     }
     else{
@@ -79,12 +79,22 @@ s.push(60);
 s.push(70);
 s.push(80);
 
-cout<<s.isfull()<<endl;
-cout<<s.peak()<<endl;
-s.pop();
-cout<<s.isfull()<<endl;
-cout<<s.peak()<<endl;
+if(s.isempty()){
 
+  cout<<"stack is empty "<<endl;
+}
+
+cout<<s.peak()<<endl;
+ s.pop();
+
+cout<<s.peak()<<endl;
+if(s.isempty()){
+
+  cout<<"stack is empty "<<endl;
+}
+else{
+  cout<<"stack is not empty"<<endl;
+}
  return 0;
 
 }
