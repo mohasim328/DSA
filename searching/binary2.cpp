@@ -4,10 +4,10 @@ using namespace std;
 
 class Solution {
   public:
-    int binarysearch(int arr[], int n, int k) {
+    int binarysearch(int arr[], int size, int k) {
         // code here
         int start=0;
-        int end=n-1;
+        int end=size-1;
         int mid =(start+end)/2;
         
       while(start<=end){

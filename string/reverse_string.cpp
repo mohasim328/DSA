@@ -31,15 +31,14 @@ class Solution
 
 int main() {
 	
-	int t;
-	cin>>t;
-	while(t--)
-	{
-    	string s;
-    	cin >> s;
+	
+	
+	  cout<<"enter the"<<endl;
+    	string s = "mohascr";
+    	
     	Solution ob;
     	cout << ob.reverseWord(s) << endl;
-	}
+
 	return 0;
 	
 }

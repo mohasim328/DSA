@@ -20,8 +20,8 @@ int main(){
     int Key= 5;
     int Size = sizeof(Arr)/sizeof(Arr[0]);
     int ans = Bainary(Arr,Key,Size);
-    cout<<"the element "<<Key<<" At position "<<ans+1<<endl;
+    cout<<"the element "<<Key<<" At position "<<ans<<endl;
     
-return 0;
+    return 0;
 
 }
